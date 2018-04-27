@@ -1,13 +1,46 @@
 {
   "pages":[
+    "pages/content/content",
+    "pages/housing/housing",
+    "pages/secHand/secHand",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/me/me"
   ],
   "window":{
     "backgroundTextStyle":"dark",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#FF3B30",
     "navigationBarTitleText": "Pitts Share",
-    "navigationBarTextStyle":"black",
+    "navigationBarTextStyle":"white",
     "enablePullDownRefresh":"true"
+  },
+  "tabBar": {
+    "selectedColor": "#FF3B30",
+    "list": [
+      {
+        "pagePath": "pages/content/content",
+        "text": "首页",
+        "iconPath": "image/icoContent.png",
+        "selectedIconPath": "image/icoContent2.png"
+      },
+      {
+        "pagePath": "pages/housing/housing",
+        "text": "住房",
+        "iconPath": "image/icoHousing.png",
+        "selectedIconPath": "image/icoHousing2.png"
+      },
+      {
+        "pagePath": "pages/secHand/secHand",
+        "text": "二手",
+        "iconPath": "image/icoSec.png",
+        "selectedIconPath": "image/icoSec2.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "image/icoMyself.png",
+        "selectedIconPath": "image/icoMyself2.png"
+      }
+    ]
   }
 }

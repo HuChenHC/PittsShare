@@ -1,0 +1,37 @@
+/* pages/secHand/secHand.wxss */
+.searching{
+  /* position: fixed;
+  top: 0; */
+  display: flex;
+  flex-direction: column;
+  padding: 30rpx;
+}
+.searchBox{
+  border: 1rpx solid gray;
+  border-radius: 30rpx;
+  display: flex;
+  flex-direction: row;
+}
+.searchIcon{
+  padding: 20rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.searchText{
+  padding: 12rpx;
+  color: gray;
+  display: flex;
+  flex-direction: row;
+}
+.popular{
+  margin-left: 50rpx;
+  margin-top: 20rpx;
+  color: gray;
+  font-size: 30rpx;
+}
+.pickerBox{
+  height: 60rpx;
+  padding: 2rpx 15rpx 0 10rpx;
+  margin: 0 30rpx 0 500rpx;
+  border: 1rpx solid black;
+}

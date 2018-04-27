@@ -1,0 +1,19 @@
+<!--me.wxml-->
+<cover-view class="meBack" mode="aspectFill">
+  <cover-image class="profilePhoto" src="../../image/1.jpg"></cover-image>
+</cover-view>
+
+<view class="postButtonBox">
+  <view class="postButton">
+    <image class="postButtonIcon" src="../../image/icoMyself.png"></image>
+    <text style="margin-left:30rpx; color:white;">发布住房转租</text>
+  </view>
+  <view class="postButton">
+    <image class="postButtonIcon" src="../../image/icoMyself.png"></image>
+    <text  style="margin-left:10rpx; color:white;">发布二手物品交易</text>
+  </view>
+</view>
+
+<view>
+
+</view>

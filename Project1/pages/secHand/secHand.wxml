@@ -1,0 +1,28 @@
+<!--secHand.wxml-->
+<view class="searching">
+  <view class="searchBox">
+    <image class="searchIcon" src="../../image/searchIcon.png" mode="aspectFill"></image>
+    <input class="searchText" placeholder="搜索框" focus="{{focus}}" />
+  </view>
+  <text class="popular">热门搜索：桌椅 床垫 吸尘器</text>
+</view>
+
+<view class="pickerBox"> 
+  <text> 筛选占位 </text>
+</view>
+
+
+<scroll-view class="scrollBox" scroll-y bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+  <block wx:for="{{disBox}}">
+    <view id="{{item.id}}" class="itemBox">
+      <image class="itemPic" src="{{item.src}}" mode="aspectFill" background-size="cover"></image>
+      <view class="itemIntroBox">
+        <text class="itemIntroTitle">{{item.title}}</text>
+        <text class="itemIntro">{{item.intro}}</text>
+      </view>
+    </view>
+    <view class="divLine" style='width:90%; margin:auto;'></view>
+  </block>
+</scroll-view>
+
+

@@ -5,6 +5,51 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 200rpx 0;
+  padding: 20rpx 0;
   box-sizing: border-box;
 } 
+
+.divLine{
+  background: #f8f8f8;
+  width: 100%;
+  height: 3rpx;
+}
+
+/*-----item-----*/
+
+.scrollBox{
+  height: 1200rpx;
+  /* background: lightcoral; */
+}
+.itemBox {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  /* background: lightcyan */
+} 
+.itemPic {
+  height: 200rpx;
+  width: 200rpx;
+  margin: 30rpx 0 30rpx 45rpx ;
+  background-color: #eeeeee;
+}
+.itemIntroBox {
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+  margin: 40rpx 0 0 40rpx;
+  height: 180rpx;
+  width: 420rpx;
+  /* background: lightgoldenrodyellow; */
+  border: 1rpx solid lightgray;
+}
+.itemIntroTitle{
+  border-radius: 20rpx 20rpx 0rpx 0rpx;
+  padding: 5rpx 20rpx 5rpx 20rpx;
+  background: #f2f2f2;
+}
+.itemIntro{
+  padding: 5rpx 20rpx 5rpx 20rpx;
+  color: #aaaaaa;
+  font-size: 30rpx;
+}

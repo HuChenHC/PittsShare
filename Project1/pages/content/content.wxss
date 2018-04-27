@@ -1,0 +1,32 @@
+/* pages/content/content.wxss */
+.swipeBox{
+  margin: auto;
+  margin-top: 60rpx;
+  width: 600rpx;
+  height: 320rpx;
+  background-color: lightgreen;
+}
+.slide-image{
+  width: 600rpx;
+  height: 320rpx;
+}
+.slctPage{
+  margin: auto;
+  margin-top: 90rpx;
+  width: 350rpx;
+  height: 120rpx;
+  background-color: #F6A59F;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10rpx;
+}
+.pageIcon{
+  width: 70rpx;
+  height: 70rpx;
+  margin-top: 25rpx;
+  margin-left: 40rpx;
+}
+.pageText{
+  margin-top: 35rpx;
+  margin-left: 30rpx;
+}

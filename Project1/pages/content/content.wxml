@@ -1,0 +1,16 @@
+<!--content.wxml-->
+<swiper class="swipeBox" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" mode="aspectFill"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<block wx:for="{{whichPage}}">
+  <view class="slctPage" hover-class="Selected" bindtap="{{item.page}}">
+    <image class="pageIcon" src="{{item.icon}}"></image>
+    <text class="pageText">{{item.text}}</text>
+  </view>
+</block>
